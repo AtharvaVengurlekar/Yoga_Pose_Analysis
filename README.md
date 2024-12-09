@@ -1,57 +1,26 @@
 Here’s a tailored **README.md** for your **Yoga Pose Recognition** project:
 
 ```markdown
-# Yoga Pose Recognition 🧘‍♀️
+# Yoga Pose Recognition 🧘‍♂️
 
-A deep learning project to recognize yoga poses from images using a Convolutional Neural Network (CNN). This application leverages TensorFlow, OpenCV, and Numpy to classify yoga poses into predefined categories. 
-
----
-
-## Project Overview 📋
-
-The system is designed to recognize yoga poses from images, enabling users to identify and analyze poses effectively. It includes functionalities for data preprocessing, model training, evaluation, and pose prediction.
+A deep learning project designed to recognize yoga poses from images using a Convolutional Neural Network (CNN). This system provides accurate classification of yoga poses, helping users identify and analyze postures effectively.
 
 ---
 
 ## Key Features 🚀
 
-- **Yoga Pose Classification**: Identify yoga poses such as *Adho Mukha Svanasana*, *Halasana*, *Trikonasana*, and more.
-- **Image Preprocessing**: Standardize images by resizing, normalizing, and one-hot encoding labels.
-- **Deep Learning Model**: Built using a CNN architecture for high accuracy in pose recognition.
-- **Data Augmentation**: Apply techniques like rotation, flipping, and shifting for a robust dataset.
-- **Real-Time Prediction**: Predict yoga poses from new images using the trained model.
+- Recognize multiple yoga poses such as:
+  - Adho Mukha Svanasana
+  - Halasana
+  - Trikonasana
+  - Other poses
+- Image preprocessing for standardization.
+- Deep learning model trained with TensorFlow and Keras.
+- Real-time prediction capabilities using OpenCV.
+- Data augmentation for improved model performance.
 
 ---
 
-## Project Structure 📁
-
-- **Data Collection**: Yoga pose images organized into folders by class.
-- **Data Preprocessing**: 
-  - Resizing images to 128x128.
-  - Normalization of pixel values.
-  - One-hot encoding of class labels.
-- **Model Training**:
-  - Sequential CNN model with convolutional, pooling, and dense layers.
-  - Early stopping to prevent overfitting.
-  - Data augmentation for enhanced performance.
-- **Evaluation**: Model accuracy and loss calculated on validation data.
-- **Pose Prediction**: Predict yoga poses from unseen images.
-
----
-
-## Requirements 📦
-
-Install the necessary libraries using:
-```bash
-pip install -r requirements.txt
-```
-
-Or manually install:
-```bash
-pip install tensorflow opencv-python numpy matplotlib scikit-learn
-```
-
----
 
 ## How to Use 🖥️
 

@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 ## Results 
 
-- **Model Accuracy**: Achieved an accuracy of **XX%** on the validation dataset.
+- **Model Accuracy**: Achieved an accuracy of **53%** on the validation dataset.
 - **Sample Predictions**: Successfully identified yoga poses from test images with high confidence.
 
 ---

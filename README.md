@@ -1,98 +1,116 @@
-Here’s a tailored **README.md** for your **Yoga Pose Recognition** project:
+Got it! Here’s how the **README.md** will look for your **Yoga Pose Recognition** project based on Jupyter Notebook usage:
 
 ```markdown
-# Yoga Pose Recognition 🧘‍♂️
+# Yoga Pose Recognition 🧘‍♀️
 
-A deep learning project designed to recognize yoga poses from images using a Convolutional Neural Network (CNN). This system provides accurate classification of yoga poses, helping users identify and analyze postures effectively.
+## Getting Started with Jupyter Notebook 📓
+
+This project uses **Jupyter Notebook** to implement and execute all steps, from data preparation to pose recognition.
 
 ---
 
-## Key Features 🚀
+## Setup Virtual Environment
+1. Create a virtual environment using `venv` or `conda`:
+   ```bash
+   python -m venv /path/to/your/environment/
+   ```
 
-- Recognize multiple yoga poses such as:
+2. Activate the environment:
+   - **Windows**:
+     ```bash
+     .\path\to\your\environment\Scripts\activate
+     ```
+   - **Mac/Linux**:
+     ```bash
+     source /path/to/your/environment/bin/activate
+     ```
+
+3. Install Jupyter and required libraries:
+   ```bash
+   pip install notebook tensorflow opencv-python numpy matplotlib scikit-learn
+   ```
+
+---
+
+## Installation of Dependencies
+Run the following command to install dependencies listed in `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+
+Alternatively, manually install:
+```bash
+pip install tensorflow opencv-python numpy matplotlib scikit-learn
+```
+
+---
+
+## Dataset Preparation 🗂️
+1. Structure your dataset as follows:
+   ```
+   dataset_path/
+   ├── Adho Mukha Svanasana/
+   ├── Halasana/
+   ├── Trikonasana/
+   └── Other_Poses/
+   ```
+2. Update the dataset path variable in your Jupyter Notebook (`Yoga_Pose_Recognition.ipynb`).
+
+---
+
+## Run the Notebook 🚀
+1. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+2. Open `Yoga_Pose_Recognition.ipynb`.
+
+3. Execute the notebook cells step by step:
+   - **Data Preprocessing**: Load and preprocess the dataset.
+   - **Model Training**: Train a CNN model for pose recognition.
+   - **Prediction**: Test the model with sample images.
+   - **Evaluation**: Check the accuracy of the model.
+
+---
+
+## Features 🎯
+- Recognizes poses like:
   - Adho Mukha Svanasana
   - Halasana
   - Trikonasana
-  - Other poses
-- Image preprocessing for standardization.
-- Deep learning model trained with TensorFlow and Keras.
-- Real-time prediction capabilities using OpenCV.
-- Data augmentation for improved model performance.
-
----
-
-
-## How to Use 🖥️
-
-### 1. **Dataset Preparation**
-   - Place your dataset in the specified folder structure:  
-     ```
-     dataset_path/
-     ├── Adho Mukha Svanasana/
-     ├── Halasana/
-     ├── Trikonasana/
-     └── Other_Poses/
-     ```
-   - Update the `dataset_path` in the script with the correct path to your dataset.
-
-### 2. **Train the Model**
-   - Run the training script to build the CNN model:
-     ```bash
-     python yoga_pose_training.py
-     ```
-
-### 3. **Predict Yoga Poses**
-   - Provide an image to the model for prediction:
-     ```bash
-     python yoga_pose_prediction.py --image <path_to_image>
-     ```
-
-### 4. **Evaluate the Model**
-   - Use the validation dataset to check accuracy:
-     ```bash
-     python yoga_pose_evaluation.py
-     ```
+  - Other Poses
+- Implements **data augmentation** for improved accuracy.
+- Interactive Jupyter Notebook workflow for ease of use.
 
 ---
 
 ## Results 📊
-
 - **Model Accuracy**: Achieved an accuracy of **XX%** on the validation dataset.
-- **Sample Predictions**: Correctly identified yoga poses for various test images.
+- **Predictions**: Successfully identified poses from test images.
 
 ---
 
 ## Future Enhancements 🔮
-
-- Integrate the model into a mobile or web application for real-time yoga pose recognition.
-- Expand the dataset to include more yoga poses and variations.
-- Improve performance with advanced deep learning architectures.
+- Integrate real-time yoga pose recognition using webcam.
+- Add support for additional yoga poses.
+- Convert Jupyter Notebook to a deployable web or mobile application.
 
 ---
 
 ## Contributing 🤝
-
-Contributions are welcome! Feel free to fork the repository and submit a pull request for any feature improvements or bug fixes.
+Feel free to fork the repository, improve the notebook, and create pull requests for enhancements or bug fixes.
 
 ---
 
 ## License 📜
-
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
 ## Acknowledgments 🙏
-
-- **TensorFlow** and **Keras** for providing excellent deep learning tools.
+- **TensorFlow** and **Keras** for their exceptional deep learning tools.
 - **OpenCV** for image processing.
-- **Mediapipe** for inspiration in pose estimation projects.
-
----
-
-## Contact 📬
-
-For any queries or feedback, please contact **[Atharva Vengurlekar](mailto:your_email@example.com)**.
+- Yoga practitioners for inspiring this project.
 ```
 
-Feel free to modify details such as your email, dataset structure, or results based on the actual performance of your project.
+This is specifically tailored for Jupyter Notebook usage. Let me know if you'd like further edits!

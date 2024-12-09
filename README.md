@@ -1,21 +1,15 @@
-Got it! Here’s how the **README.md** will look for your **Yoga Pose Recognition** project based on Jupyter Notebook usage:
-
-```markdown
-Here is the full **README.md** for your **Yoga Pose Recognition** project, tailored to meet the **AI Assignment** requirements and incorporating the Kaggle dataset link:
-
-```markdown
-# Yoga Pose Recognition 🧘‍♀️
+# Yoga Pose Recognition 
 
 An AI-powered solution to identify yoga poses and provide feedback on alignment and accuracy. This project was developed as part of an AI-themed proof of concept for enhancing the yoga experience.
 
 ---
 
-## Objective 🎯
+## Objective 
 This project implements **Pose Detection & Correction**, which recognizes yoga poses and lays the foundation for providing feedback for alignment and accuracy. The system leverages deep learning and computer vision to identify various yoga postures from images.
 
 ---
 
-## Dataset 📂
+## Dataset 
 
 The dataset for this project was sourced from Kaggle:
 [Yoga Posture Dataset](https://www.kaggle.com/datasets/tr1gg3rtrash/yoga-posture-dataset)
@@ -39,7 +33,7 @@ To use this dataset:
 
 ---
 
-## Getting Started 🚀
+## Getting Started 
 
 ### Virtual Environment Setup
 1. Create a virtual environment using `venv` or `conda`:
@@ -72,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-## Running the Project 📓
+## Running the Project 
 
 ### Jupyter Notebook Workflow
 1. Launch Jupyter Notebook:
@@ -90,7 +84,7 @@ pip install -r requirements.txt
 
 ---
 
-## Features 🎯
+## Features 
 - **Pose Detection**: Accurately classifies yoga poses like:
   - Adho Mukha Svanasana
   - Halasana
@@ -101,14 +95,14 @@ pip install -r requirements.txt
 
 ---
 
-## Results 📊
+## Results 
 
 - **Model Accuracy**: Achieved an accuracy of **XX%** on the validation dataset.
 - **Sample Predictions**: Successfully identified yoga poses from test images with high confidence.
 
 ---
 
-## Future Enhancements 🔮
+## Future Enhancements 
 - **Real-Time Detection**: Integrate with a webcam for real-time yoga pose recognition.
 - **Feedback System**: Add functionality to provide alignment and improvement suggestions.
 - **App Integration**: Build an API to integrate this feature into a mobile yoga application.
@@ -116,7 +110,7 @@ pip install -r requirements.txt
 
 ---
 
-## How to Use 📖
+## How to Use 
 
 ### Training the Model
 Train the model using the following command in Jupyter Notebook:
@@ -130,7 +124,7 @@ Use a sample image for prediction:
 
 ---
 
-## Contributing 🤝
+## Contributing 
 Contributions are welcome! Feel free to fork the repository and submit pull requests to:
 - Improve the model's accuracy.
 - Add new features like real-time pose detection.
@@ -138,18 +132,15 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ---
 
-## License 📜
+## License 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
-## Acknowledgments 🙏
+## Acknowledgments 
 - **TensorFlow** and **Keras** for their powerful deep learning tools.
 - **OpenCV** for efficient image processing.
 - **Kaggle** for providing the [Yoga Posture Dataset](https://www.kaggle.com/datasets/tr1gg3rtrash/yoga-posture-dataset).
 - Yoga practitioners for inspiring this innovative AI project.
 
 ---
-
-
-With this documentation, your project is ready for submission and evaluation. Let me know if you'd like to refine or expand any section!
